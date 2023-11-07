@@ -66,6 +66,8 @@ require (
 	k8s.io/client-go v0.26.1
 )
 
+require github.com/aws/aws-sdk-go-v2/service/ssooidc v1.14.6 // indirect
+
 require (
 	github.com/aws/aws-sdk-go-v2/service/s3control v1.31.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.14.6 // indirect
@@ -86,7 +88,11 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.1.9 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/endpoint-discovery v1.7.19 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.9.25 // indirect
+<<<<<<< HEAD
 	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.14.0 // indirect
+=======
+	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.13.8 // indirect
+>>>>>>> 5287b940 (Adding Access Point method in a separate file)
 	github.com/aws/aws-sdk-go-v2/service/sso v1.12.6 // indirect
 	github.com/aws/smithy-go v1.13.5 // indirect
 	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
